@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(Images/10101101.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 60rem;
+    
+}
+
+body .container {
+    background-image: url(Images/blury_grey.jpg);
+    min-width: 65vw;
+    border-radius: 1rem;
+    padding: 3rem;
+    position: relative;
+    width: 50%;
+    max-height: 55rem;
+    margin: 4rem;
+}
+
+body .container header {
+    padding-left: 2rem;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-size: 3rem;
+    color: rgb(47, 144, 58);
+    display: inline;
+}
+body .container header p {
+    display: inline;
+}
+
+body .container .main {
+    
+    min-height: 40rem;
+    margin: 2rem;
+}
+
+body .container .main form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 3rem;
+    
+    
+}
+
+body .container .main form .form {
+    font-family: 'Fuzzy Bubbles', cursive;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    min-width: 25vw;
+    color: chocolate;
+    
+}
+
+body .container .main form .form #C11 {
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    min-width: 15vw;
+    min-height: 5vh;
+    font-size: 1rem;
+}
+
+body .container .main form .form .C112 {
+    border: 1px solid #ccc;
+    padding:0.8rem ;
+    min-width: 15vw;
+    min-height: 5vh;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+}
+
+body .container .main form .button button {
+    margin-top: 5rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+    background-color: crimson;
+    border-radius: 1rem;
+    border: 1px solid crimson;
+}
